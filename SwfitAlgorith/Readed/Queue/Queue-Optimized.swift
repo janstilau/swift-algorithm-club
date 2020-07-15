@@ -37,6 +37,8 @@ public struct Queue<T> {
      O(n)的复杂度, 所以还是一个个的删的.
      这里, 就是一个缩容的处理过程.
      */
+    
+    // 想要得到 Double 的数据, 就要进行 Double 的转换工作. 这种转换, 有时显得特别繁琐.
     let percentage = Double(head)/Double(array.count)
     if array.count > 50 && percentage > 0.25 {
       array.removeFirst(head)

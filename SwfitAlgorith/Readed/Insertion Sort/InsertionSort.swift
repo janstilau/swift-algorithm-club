@@ -24,6 +24,11 @@ func insertionSort<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
 ///
 /// - Parameter array: the array to be sorted, containing elements that conform to the Comparable protocol
 /// - Returns: a sorted array containing the same elements
+
+/*
+ T 根据了 Comparable 进行了约束, 这样泛型算法里面, 写 比较 操作符, 可以保证在编译期间就能发现错误.
+ 这个插入排序的实现, 有点问题, 是冒泡排序的实现.
+ */
 func insertionSort<T: Comparable>(_ array: [T]) -> [T] {
     guard array.count > 1 else { return array }
 
