@@ -9,6 +9,10 @@ class StackTest: XCTestCase {
     XCTAssertEqual(stack.top, nil)
     XCTAssertNil(stack.pop())
   }
+    
+    /*
+     从这个类里面, 看到 Test 框架就是做返回值, 和输入值的判断操作. 对于 Bool, nil, 定义了专门的方法, 进行匹配.
+     */
 
   func testOneElement() {
     var stack = Stack<Int>()
