@@ -12,7 +12,9 @@
 import Foundation
 
 // The recursive version of binary search.
-
+/*
+ Range 是前闭后开的, 所以, 这里相等也不可以.
+ */
 public func binarySearch<T: Comparable>(_ a: [T], key: T, range: Range<Int>) -> Int? {
     if range.lowerBound >= range.upperBound {
         return nil
@@ -35,9 +37,15 @@ public func binarySearch<T: Comparable>(_ a: [T], key: T, range: Range<Int>) -> 
  uses a while loop, while the other calls itself recursively.
  **/
 
+/*
+ 这里, 比较符合常规意义上的二分查找.
+ */
 public func binarySearch<T: Comparable>(_ a: [T], key: T) -> Int? {
     var lowerBound = 0
     var upperBound = a.count
+    /*
+     有点问题, 为什么这里不是 <=
+     */
     while lowerBound < upperBound {
         let midIndex = lowerBound + (upperBound - lowerBound) / 2
         if a[midIndex] == key {

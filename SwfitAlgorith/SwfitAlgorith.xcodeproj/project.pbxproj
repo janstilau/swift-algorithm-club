@@ -601,7 +601,7 @@
 		0690AFE324BEC0240006357D /* Tests.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Tests.xcodeproj; sourceTree = "<group>"; };
 		0690AFE624BEC0240006357D /* BinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeTests.swift; sourceTree = "<group>"; };
 		0690AFE724BEC0240006357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0690AFE824BEC0240006357D /* BinarySearchTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearchTree.playground; sourceTree = "<group>"; };
+		0690AFE824BEC0240006357D /* BinarySearchTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearchTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0690AFED24BEC0240006357D /* HaversineDistance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HaversineDistance.playground; sourceTree = "<group>"; };
 		0690AFEE24BEC0240006357D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0690AFF024BEC0240006357D /* 4Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4Sum.playground; sourceTree = "<group>"; };
@@ -987,7 +987,7 @@
 		0690B24F24BEC02B0006357D /* KnuthMorrisPratt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnuthMorrisPratt.swift; sourceTree = "<group>"; };
 		0690B25024BEC02B0006357D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		0690B25124BEC02B0006357D /* KnuthMorrisPratt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KnuthMorrisPratt.playground; sourceTree = "<group>"; };
-		0690B25324BEC02B0006357D /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; };
+		0690B25324BEC02B0006357D /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0690B25524BEC02B0006357D /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		0690B25624BEC02B0006357D /* Tests.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Tests.xcodeproj; sourceTree = "<group>"; };
 		0690B25924BEC02B0006357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1217,8 +1217,6 @@
 				0690B2E724BEC02D0006357D /* Array2D */,
 				0690B2A824BEC02C0006357D /* AVL Tree */,
 				0690AEFE24BEC0220006357D /* B-Tree */,
-				0690B25224BEC02B0006357D /* Binary Search */,
-				0690AFCB24BEC0240006357D /* Binary Search Tree */,
 				0690B2C524BEC02C0006357D /* Binary Tree */,
 				0690B09324BEC0260006357D /* Bit Set */,
 				0690B01E24BEC0250006357D /* Bloom Filter */,
@@ -2033,8 +2031,7 @@
 				0690AFE024BEC0240006357D /* README.markdown */,
 				0690AFE124BEC0240006357D /* Solution 1 */,
 			);
-			name = "Binary Search Tree";
-			path = "../../Binary Search Tree";
+			path = "Binary Search Tree";
 			sourceTree = "<group>";
 		};
 		0690AFCC24BEC0240006357D /* Solution 2 */ = {
@@ -3487,8 +3484,7 @@
 				0690B25A24BEC02B0006357D /* README.markdown */,
 				0690B25B24BEC02B0006357D /* BinarySearch.swift */,
 			);
-			name = "Binary Search";
-			path = "../../Binary Search";
+			path = "Binary Search";
 			sourceTree = "<group>";
 		};
 		0690B25424BEC02B0006357D /* Tests */ = {
@@ -4242,6 +4238,8 @@
 		0690B3FC24BEFA360006357D /* Readed */ = {
 			isa = PBXGroup;
 			children = (
+				0690B25224BEC02B0006357D /* Binary Search */,
+				0690AFCB24BEC0240006357D /* Binary Search Tree */,
 				0690AF9E24BEC0230006357D /* Insertion Sort */,
 				0690B22C24BEC02A0006357D /* Queue */,
 				0690B35824BEC02E0006357D /* Stack */,
