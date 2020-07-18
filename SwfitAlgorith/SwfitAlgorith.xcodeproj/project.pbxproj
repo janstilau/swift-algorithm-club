@@ -892,7 +892,7 @@
 		0690B1BF24BEC0280006357D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0690B1C124BEC0280006357D /* BucketSort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BucketSort.png; sourceTree = "<group>"; };
 		0690B1C224BEC0280006357D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		0690B1C324BEC0280006357D /* BucketSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BucketSort.playground; sourceTree = "<group>"; };
+		0690B1C324BEC0280006357D /* BucketSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BucketSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0690B1C824BEC0290006357D /* ZetaAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZetaAlgorithm.swift; sourceTree = "<group>"; };
 		0690B1C924BEC0290006357D /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		0690B1CA24BEC0290006357D /* ZetaAlgorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ZetaAlgorithm.playground; sourceTree = "<group>"; };
@@ -1309,7 +1309,6 @@
 				0690B0A824BEC0260006357D /* Threaded Binary Tree */,
 				0690AF8124BEC0230006357D /* Topological Sort */,
 				0690B31724BEC02D0006357D /* Treap */,
-				0690AF2A24BEC0220006357D /* Tree */,
 				0690B33724BEC02E0006357D /* Trie */,
 				0690AEF224BEC0220006357D /* Two-Sum Problem */,
 				0690B18024BEC0280006357D /* Union-Find */,
@@ -1646,8 +1645,7 @@
 				0690AF3524BEC0220006357D /* README.markdown */,
 				0690AF3624BEC0220006357D /* Tree.swift */,
 			);
-			name = Tree;
-			path = ../../Tree;
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		0690AF2C24BEC0220006357D /* Images */ = {
@@ -4238,6 +4236,7 @@
 		0690B3FC24BEFA360006357D /* Readed */ = {
 			isa = PBXGroup;
 			children = (
+				0690AF2A24BEC0220006357D /* Tree */,
 				0690B25224BEC02B0006357D /* Binary Search */,
 				0690AFCB24BEC0240006357D /* Binary Search Tree */,
 				0690AF9E24BEC0230006357D /* Insertion Sort */,
