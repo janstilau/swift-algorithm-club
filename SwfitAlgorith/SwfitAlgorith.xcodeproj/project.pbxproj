@@ -1247,7 +1247,6 @@
 				0690AEDA24BEC0220006357D /* Hash Table */,
 				0690B32B24BEC02E0006357D /* Hashed Heap */,
 				0690AFEC24BEC0240006357D /* HaversineDistance */,
-				0690B04624BEC0250006357D /* Heap */,
 				0690B0D324BEC0260006357D /* Heap Sort */,
 				0690AF1724BEC0220006357D /* Huffman Coding */,
 				0690B02B24BEC0250006357D /* Images */,
@@ -2350,8 +2349,7 @@
 				0690B06A24BEC0250006357D /* README.markdown */,
 				0690B06B24BEC0250006357D /* Heap.swift */,
 			);
-			name = Heap;
-			path = ../../Heap;
+			path = Heap;
 			sourceTree = "<group>";
 		};
 		0690B04724BEC0250006357D /* Images */ = {
@@ -4236,6 +4234,7 @@
 		0690B3FC24BEFA360006357D /* Readed */ = {
 			isa = PBXGroup;
 			children = (
+				0690B04624BEC0250006357D /* Heap */,
 				0690AF2A24BEC0220006357D /* Tree */,
 				0690B25224BEC02B0006357D /* Binary Search */,
 				0690AFCB24BEC0240006357D /* Binary Search Tree */,
